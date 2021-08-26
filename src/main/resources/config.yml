@@ -1,4 +1,4 @@
-# This is the RedisAntiBot config file, do not change version id.
+# This is the AgendaAntiSpam config file, do not change version id.
 version: 1
 redis-address: "localhost"
 redis-prefix: "antispam"
