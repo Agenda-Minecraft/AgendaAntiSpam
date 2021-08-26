@@ -1,0 +1,12 @@
+name: AgendaAntiSpam
+main: cat.kiwi.minecraft.agenda.antispam.AntiSpam
+version: 1.0.0
+
+commands:
+  aasbypass:
+    description: AgendaAntiSpam Bypass
+    permission: aas.bypass
+  aas:
+    description: AgendaAntiSpam
+    permission: aas.admin
+    usage: /aas

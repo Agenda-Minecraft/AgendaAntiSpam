@@ -1,0 +1,14 @@
+# This is the RedisAntiBot config file, do not change version id.
+version: 1
+redis-address: "localhost"
+redis-prefix: "antispam"
+redis-port: 6379
+message-length-weight: 2
+message-bias: 10
+tolerable-ttl: 500
+duplicate-bias: 20
+random-from: 5
+random-to: 10
+first-time-cooldown: 300
+first-time-action: "kick %player% stop spamming"
+final-action: "ban %player% spam"
